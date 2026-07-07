@@ -5,11 +5,18 @@
 </head>
 <body>
 
-<h1>Storage Bay QR</h1>
+<h1>Storage Bay</h1>
 
-<h2 id="locationTitle">Location: Loading...</h2>
+<h2 id="locationTitle">Location Loading...</h2>
 
-<label>Assign Project:</label><br>
+<h3>Currently Assigned</h3>
+<div id="currentAssignment">
+    Loading...
+</div>
+
+<br>
+
+<h3>Change Assignment</h3>
 
 <select id="projectSelect">
     <option>Loading projects...</option>
@@ -17,40 +24,48 @@
 
 <br><br>
 
-<label>Notes:</label><br>
-<textarea id="notes" rows="4" cols="50"></textarea>
-
-<br><br>
-
-<button disabled>Submit (Coming Soon)</button>
+<button disabled>Update Assignment</button>
 
 <script>
-
 const params = new URLSearchParams(window.location.search);
 const loc = params.get("loc") || "UNKNOWN";
 
 document.getElementById("locationTitle").textContent =
-    "Location: " + loc;
+    "Location " + loc;
+
+fetch("locations.json?v=" + Date.now())
+    .then(r => r.json())
+    .then(locations => {
+        const currentBox = document.getElementById("currentAssignment");
+        const match = locations.find(x => x.location_code === loc);
+
+        if (!match || !match.project_number) {
+            currentBox.innerHTML = "Available";
+            return;
+        }
+
+        currentBox.innerHTML =
+            "<strong>" + match.project_name + "</strong><br>" +
+            match.project_number;
+    })
+    .catch(() => {
+        document.getElementById("currentAssignment").innerHTML =
+            "Current assignment unavailable";
+    });
 
 fetch("projects.json?v=" + Date.now())
     .then(r => r.json())
     .then(projects => {
-
         const ddl = document.getElementById("projectSelect");
         ddl.innerHTML = "";
 
         projects.forEach(p => {
-
             const opt = document.createElement("option");
             opt.value = p.project_number;
             opt.textContent = p.display_text;
-
             ddl.appendChild(opt);
-
         });
-
     });
-
 </script>
 
 </body>
