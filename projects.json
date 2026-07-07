@@ -1,0 +1,12 @@
+[
+  {
+    "project_number": "J-1001",
+    "project_name": "Test Project One",
+    "display_text": "Test Project One - J-1001"
+  },
+  {
+    "project_number": "J-1002",
+    "project_name": "Test Project Two",
+    "display_text": "Test Project Two - J-1002"
+  }
+]
