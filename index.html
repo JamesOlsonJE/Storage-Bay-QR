@@ -4,28 +4,54 @@
   <title>Storage Bay QR</title>
 </head>
 <body>
-  <h1>Storage Bay QR</h1>
 
-  <h2 id="locationTitle">Location: loading...</h2>
+<h1>Storage Bay QR</h1>
 
-  <label for="projectSelect">Assign project:</label><br>
-  <select id="projectSelect">
-    <option>Project dropdown coming next</option>
-  </select>
+<h2 id="locationTitle">Location: Loading...</h2>
 
-  <br><br>
+<label>Assign Project:</label><br>
 
-  <label for="notes">Notes:</label><br>
-  <textarea id="notes" rows="4" cols="40"></textarea>
+<select id="projectSelect">
+    <option>Loading projects...</option>
+</select>
 
-  <br><br>
+<br><br>
 
-  <button disabled>Submit coming next</button>
+<label>Notes:</label><br>
+<textarea id="notes" rows="4" cols="50"></textarea>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const loc = params.get("loc") || "UNKNOWN";
-    document.getElementById("locationTitle").textContent = "Location: " + loc;
-  </script>
+<br><br>
+
+<button disabled>Submit (Coming Soon)</button>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+const loc = params.get("loc") || "UNKNOWN";
+
+document.getElementById("locationTitle").textContent =
+    "Location: " + loc;
+
+fetch("projects.json")
+    .then(r => r.json())
+    .then(projects => {
+
+        const ddl = document.getElementById("projectSelect");
+        ddl.innerHTML = "";
+
+        projects.forEach(p => {
+
+            const opt = document.createElement("option");
+            opt.value = p.project_number;
+            opt.textContent = p.display_text;
+
+            ddl.appendChild(opt);
+
+        });
+
+    });
+
+</script>
+
 </body>
 </html>
