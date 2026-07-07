@@ -1,12 +1,122 @@
-[
-  {
-    "project_number": "J-1001",
-    "project_name": "Test Project One",
-    "display_text": "Test Project One - J-1001"
-  },
-  {
-    "project_number": "J-1002",
-    "project_name": "Test Project Two",
-    "display_text": "Test Project Two - J-1002"
-  }
+﻿[
+    {
+        "project_number":  "J-1003",
+        "project_name":  "Absecon - ATTALES MIDDLE SCHOOL (AA)",
+        "display_text":  "Absecon - ATTALES MIDDLE SCHOOL (AA) - J-1003"
+    },
+    {
+        "project_number":  "J-1047",
+        "project_name":  "Belmar - Dempsey Park Basketball Lighting Retrofit",
+        "display_text":  "Belmar - Dempsey Park Basketball Lighting Retrofit - J-1047"
+    },
+    {
+        "project_number":  "J-1012",
+        "project_name":  "Brandywine Zoo",
+        "display_text":  "Brandywine Zoo - J-1012"
+    },
+    {
+        "project_number":  "J-1004",
+        "project_name":  "Camden - Kipp HS",
+        "display_text":  "Camden - Kipp HS - J-1004"
+    },
+    {
+        "project_number":  "J-1023",
+        "project_name":  "Dennis Township Rec",
+        "display_text":  "Dennis Township Rec - J-1023"
+    },
+    {
+        "project_number":  "J-1005",
+        "project_name":  "EHT - Canale Park Retrofit",
+        "display_text":  "EHT - Canale Park Retrofit - J-1005"
+    },
+    {
+        "project_number":  "J-1026",
+        "project_name":  "Haddonfield - Hopkins Parcel Athletic Improvements",
+        "display_text":  "Haddonfield - Hopkins Parcel Athletic Improvements - J-1026"
+    },
+    {
+        "project_number":  "J-1043",
+        "project_name":  "Hammonton HS Field Scoreboard",
+        "display_text":  "Hammonton HS Field Scoreboard - J-1043"
+    },
+    {
+        "project_number":  "J-1031",
+        "project_name":  "Indoor Track - BPGS Wilmington",
+        "display_text":  "Indoor Track - BPGS Wilmington - J-1031"
+    },
+    {
+        "project_number":  "J-1033",
+        "project_name":  "Justison Landing Park - Wilmington",
+        "display_text":  "Justison Landing Park - Wilmington - J-1033"
+    },
+    {
+        "project_number":  "J-1006",
+        "project_name":  "Kingsway High School Lacrosse",
+        "display_text":  "Kingsway High School Lacrosse - J-1006"
+    },
+    {
+        "project_number":  "J-1017",
+        "project_name":  "Kirkwood (New Castle Soccer)",
+        "display_text":  "Kirkwood (New Castle Soccer) - J-1017"
+    },
+    {
+        "project_number":  "J-1018",
+        "project_name":  "Middle Township Football",
+        "display_text":  "Middle Township Football - J-1018"
+    },
+    {
+        "project_number":  "J-1036",
+        "project_name":  "Monroe Township - Owens Park Hockey Court",
+        "display_text":  "Monroe Township - Owens Park Hockey Court - J-1036"
+    },
+    {
+        "project_number":  "J-1038",
+        "project_name":  "Musco DSG Cherry Hill Mall",
+        "display_text":  "Musco DSG Cherry Hill Mall - J-1038"
+    },
+    {
+        "project_number":  "J-1054",
+        "project_name":  "Otter Street Fields Bristol PA",
+        "display_text":  "Otter Street Fields Bristol PA - J-1054"
+    },
+    {
+        "project_number":  "J-1020",
+        "project_name":  "Runnemede - Ball Field Lighting Improvements",
+        "display_text":  "Runnemede - Ball Field Lighting Improvements - J-1020"
+    },
+    {
+        "project_number":  "J-1007",
+        "project_name":  "Runnemede Lighting Improvements - Lake Park",
+        "display_text":  "Runnemede Lighting Improvements - Lake Park - J-1007"
+    },
+    {
+        "project_number":  "J-1008",
+        "project_name":  "Runnemede Lighting Improvements - RYAA Fields",
+        "display_text":  "Runnemede Lighting Improvements - RYAA Fields - J-1008"
+    },
+    {
+        "project_number":  "J-1009",
+        "project_name":  "Runnemede Lighting Improvements - Venella Park",
+        "display_text":  "Runnemede Lighting Improvements - Venella Park - J-1009"
+    },
+    {
+        "project_number":  "J-1011",
+        "project_name":  "Southampton Middle School",
+        "display_text":  "Southampton Middle School - J-1011"
+    },
+    {
+        "project_number":  "J-1001",
+        "project_name":  "Vermes Field (Delran) - Soccer Field Improvements",
+        "display_text":  "Vermes Field (Delran) - Soccer Field Improvements - J-1001"
+    },
+    {
+        "project_number":  "J-1002",
+        "project_name":  "Wall Township High School",
+        "display_text":  "Wall Township High School - J-1002"
+    },
+    {
+        "project_number":  "J-1048",
+        "project_name":  "Washington Township High School",
+        "display_text":  "Washington Township High School - J-1048"
+    }
 ]
