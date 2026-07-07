@@ -5,6 +5,27 @@
 </head>
 <body>
   <h1>Storage Bay QR</h1>
-  <p>Page test working.</p>
+
+  <h2 id="locationTitle">Location: loading...</h2>
+
+  <label for="projectSelect">Assign project:</label><br>
+  <select id="projectSelect">
+    <option>Project dropdown coming next</option>
+  </select>
+
+  <br><br>
+
+  <label for="notes">Notes:</label><br>
+  <textarea id="notes" rows="4" cols="40"></textarea>
+
+  <br><br>
+
+  <button disabled>Submit coming next</button>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const loc = params.get("loc") || "UNKNOWN";
+    document.getElementById("locationTitle").textContent = "Location: " + loc;
+  </script>
 </body>
 </html>
