@@ -32,7 +32,7 @@ const loc = params.get("loc") || "UNKNOWN";
 document.getElementById("locationTitle").textContent =
     "Location: " + loc;
 
-fetch("projects.json")
+fetch("projects.json?v=" + Date.now())
     .then(r => r.json())
     .then(projects => {
 
