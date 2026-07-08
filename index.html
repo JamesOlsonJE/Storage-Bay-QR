@@ -24,7 +24,7 @@
 
 <br><br>
 
-<button disabled>Update Assignment</button>
+<button id="updateBtn">Update Assignment</button>
 
 <script>
 const params = new URLSearchParams(window.location.search);
@@ -66,6 +66,18 @@ fetch("projects.json?v=" + Date.now())
             ddl.appendChild(opt);
         });
     });
+
+document.getElementById("updateBtn").addEventListener("click", () => {
+    const projectNumber = document.getElementById("projectSelect").value;
+
+    const updateUrl =
+        "http://192.168.0.21:8088/storagebay/?loc=" +
+        encodeURIComponent(loc) +
+        "&project=" +
+        encodeURIComponent(projectNumber);
+
+    window.location.href = updateUrl;
+});
 </script>
 
 </body>
