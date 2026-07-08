@@ -1,10 +1,5 @@
 ﻿[
     {
-        "project_number":  "J-1003",
-        "project_name":  "Absecon - ATTALES MIDDLE SCHOOL (AA)",
-        "display_text":  "Absecon - ATTALES MIDDLE SCHOOL (AA) - J-1003"
-    },
-    {
         "project_number":  "J-1047",
         "project_name":  "Belmar - Dempsey Park Basketball Lighting Retrofit",
         "display_text":  "Belmar - Dempsey Park Basketball Lighting Retrofit - J-1047"
@@ -23,11 +18,6 @@
         "project_number":  "J-1023",
         "project_name":  "Dennis Township Rec",
         "display_text":  "Dennis Township Rec - J-1023"
-    },
-    {
-        "project_number":  "J-1005",
-        "project_name":  "EHT - Canale Park Retrofit",
-        "display_text":  "EHT - Canale Park Retrofit - J-1005"
     },
     {
         "project_number":  "J-1026",
@@ -103,11 +93,6 @@
         "project_number":  "J-1011",
         "project_name":  "Southampton Middle School",
         "display_text":  "Southampton Middle School - J-1011"
-    },
-    {
-        "project_number":  "J-1001",
-        "project_name":  "Vermes Field (Delran) - Soccer Field Improvements",
-        "display_text":  "Vermes Field (Delran) - Soccer Field Improvements - J-1001"
     },
     {
         "project_number":  "J-1002",
