@@ -30,7 +30,8 @@
         margin-top:30px;
     }
 
-    #currentAssignment{
+    #currentAssignment,
+    #allLocations{
         background:white;
         border:1px solid #ccc;
         border-radius:10px;
@@ -79,7 +80,13 @@
     Loading...
 </div>
 
+<div id="allLocations" style="display:none;">
+    Loading locations...
+</div>
+
 <br>
+
+<div id="assignmentControls">
 
 <h3>Change Assignment</h3>
 
@@ -95,16 +102,41 @@
 
 <button id="clearBtn">Clear Assignment</button>
 
+</div>
+
 <script>
 const params = new URLSearchParams(window.location.search);
 const loc = params.get("loc") || "UNKNOWN";
+const view = params.get("view") || "";
 
-document.getElementById("locationTitle").textContent =
-    "Location " + loc;
+if (view === "locations") {
+    document.getElementById("locationTitle").textContent = "All Storage Locations";
+    document.querySelector("h3").style.display = "none";
+    document.getElementById("currentAssignment").style.display = "none";
+    document.getElementById("allLocations").style.display = "block";
+    document.getElementById("assignmentControls").style.display = "none";
+}
+else {
+    document.getElementById("locationTitle").textContent = "Location " + loc;
+}
 
 fetch("locations.json?v=" + Date.now())
     .then(r => r.json())
     .then(locations => {
+    if (view === "locations") {
+
+    const list = document.getElementById("allLocations");
+
+    list.innerHTML = locations.map(x =>
+        "<div style='padding:10px;border-bottom:1px solid #ddd;'>" +
+        "<strong>" + x.location_code + "</strong> - " +
+        (x.project_name ? x.project_name : "Available") +
+        "</div>"
+    ).join("");
+
+    return;
+}
+      
         const currentBox = document.getElementById("currentAssignment");
         const match = locations.find(x => x.location_code === loc);
 
