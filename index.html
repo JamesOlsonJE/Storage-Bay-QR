@@ -57,6 +57,10 @@
         border-radius:8px;
     }
 
+    #clearBtn{
+    background:#b22222;
+}
+
     button:active{
         opacity:.8;
     }
@@ -86,6 +90,10 @@
 <br><br>
 
 <button id="updateBtn">Update Assignment</button>
+
+<br><br>
+
+<button id="clearBtn">Clear Assignment</button>
 
 <script>
 const params = new URLSearchParams(window.location.search);
@@ -138,6 +146,15 @@ document.getElementById("updateBtn").addEventListener("click", () => {
         encodeURIComponent(projectNumber);
 
     window.location.href = updateUrl;
+});
+
+  document.getElementById("clearBtn").addEventListener("click", () => {
+    const clearUrl =
+        "http://192.168.0.21:8088/storagebay/?loc=" +
+        encodeURIComponent(loc) +
+        "&project=";
+
+    window.location.href = clearUrl;
 });
 </script>
 
