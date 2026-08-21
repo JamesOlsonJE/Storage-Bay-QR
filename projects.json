@@ -15,6 +15,16 @@
         "display_text":  "Camden - Kipp HS - J-1004"
     },
     {
+        "project_number":  "J-1072",
+        "project_name":  "Crowshaw Park",
+        "display_text":  "Crowshaw Park - J-1072"
+    },
+    {
+        "project_number":  "J-1073",
+        "project_name":  "Dempsey Park",
+        "display_text":  "Dempsey Park - J-1073"
+    },
+    {
         "project_number":  "J-1023",
         "project_name":  "Dennis Township Rec",
         "display_text":  "Dennis Township Rec - J-1023"
@@ -73,6 +83,11 @@
         "project_number":  "J-1038",
         "project_name":  "Musco DSG Cherry Hill Mall",
         "display_text":  "Musco DSG Cherry Hill Mall - J-1038"
+    },
+    {
+        "project_number":  "J-1074",
+        "project_name":  "Ocean Road Park Musco Quick Fit",
+        "display_text":  "Ocean Road Park Musco Quick Fit - J-1074"
     },
     {
         "project_number":  "J-1054",
