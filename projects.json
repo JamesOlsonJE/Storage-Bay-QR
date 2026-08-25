@@ -115,6 +115,11 @@
         "display_text":  "Runnemede Lighting Improvements - Venella Park - J-1009"
     },
     {
+        "project_number":  "J-1075",
+        "project_name":  "Shore Top Construction Corp\t\t\t\t\t",
+        "display_text":  "Shore Top Construction Corp\t\t\t\t\t - J-1075"
+    },
+    {
         "project_number":  "J-1011",
         "project_name":  "Southampton Middle School",
         "display_text":  "Southampton Middle School - J-1011"
@@ -128,5 +133,10 @@
         "project_number":  "J-1048",
         "project_name":  "Washington Township High School",
         "display_text":  "Washington Township High School - J-1048"
+    },
+    {
+        "project_number":  "J-1040",
+        "project_name":  "winslow solar ninsa",
+        "display_text":  "winslow solar ninsa - J-1040"
     }
 ]
