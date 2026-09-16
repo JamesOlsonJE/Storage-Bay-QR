@@ -5,11 +5,6 @@
         "display_text":  "34th St SandCastle Park - J-1068"
     },
     {
-        "project_number":  "J-1047",
-        "project_name":  "Belmar - Dempsey Park Basketball Lighting Retrofit",
-        "display_text":  "Belmar - Dempsey Park Basketball Lighting Retrofit - J-1047"
-    },
-    {
         "project_number":  "J-1012",
         "project_name":  "Brandywine Zoo",
         "display_text":  "Brandywine Zoo - J-1012"
@@ -25,11 +20,6 @@
         "display_text":  "Haddonfield - Hopkins Parcel Athletic Improvements - J-1026"
     },
     {
-        "project_number":  "J-1043",
-        "project_name":  "Hammonton HS Field Scoreboard",
-        "display_text":  "Hammonton HS Field Scoreboard - J-1043"
-    },
-    {
         "project_number":  "J-1031",
         "project_name":  "Indoor Track - BPGS Wilmington",
         "display_text":  "Indoor Track - BPGS Wilmington - J-1031"
@@ -43,11 +33,6 @@
         "project_number":  "J-1006",
         "project_name":  "Kingsway High School Lacrosse",
         "display_text":  "Kingsway High School Lacrosse - J-1006"
-    },
-    {
-        "project_number":  "J-1017",
-        "project_name":  "Kirkwood (New Castle Soccer)",
-        "display_text":  "Kirkwood (New Castle Soccer) - J-1017"
     },
     {
         "project_number":  "J-1050",
@@ -73,11 +58,6 @@
         "project_number":  "J-1038",
         "project_name":  "Musco DSG Cherry Hill Mall",
         "display_text":  "Musco DSG Cherry Hill Mall - J-1038"
-    },
-    {
-        "project_number":  "J-1074",
-        "project_name":  "Ocean Road Park Musco Quick Fit",
-        "display_text":  "Ocean Road Park Musco Quick Fit - J-1074"
     },
     {
         "project_number":  "J-1054",
@@ -118,15 +98,5 @@
         "project_number":  "J-1002",
         "project_name":  "Wall Township High School",
         "display_text":  "Wall Township High School - J-1002"
-    },
-    {
-        "project_number":  "J-1048",
-        "project_name":  "Washington Township High School",
-        "display_text":  "Washington Township High School - J-1048"
-    },
-    {
-        "project_number":  "J-1040",
-        "project_name":  "winslow solar ninsa",
-        "display_text":  "winslow solar ninsa - J-1040"
     }
 ]
