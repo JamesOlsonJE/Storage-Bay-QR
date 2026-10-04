@@ -5,6 +5,16 @@
         "display_text":  "34th St SandCastle Park - J-1068"
     },
     {
+        "project_number":  "J-1003",
+        "project_name":  "Absecon - ATTALES MIDDLE SCHOOL (AA)",
+        "display_text":  "Absecon - ATTALES MIDDLE SCHOOL (AA) - J-1003"
+    },
+    {
+        "project_number":  "J-1047",
+        "project_name":  "Belmar - Dempsey Park Basketball Lighting Retrofit",
+        "display_text":  "Belmar - Dempsey Park Basketball Lighting Retrofit - J-1047"
+    },
+    {
         "project_number":  "J-1012",
         "project_name":  "Brandywine Zoo",
         "display_text":  "Brandywine Zoo - J-1012"
@@ -25,6 +35,16 @@
         "display_text":  "Crowshaw Park - J-1072"
     },
     {
+        "project_number":  "J-1023",
+        "project_name":  "Dennis Township Rec",
+        "display_text":  "Dennis Township Rec - J-1023"
+    },
+    {
+        "project_number":  "J-1005",
+        "project_name":  "EHT - Canale Park Retrofit",
+        "display_text":  "EHT - Canale Park Retrofit - J-1005"
+    },
+    {
         "project_number":  "J-1078",
         "project_name":  "Goldey Beacom College",
         "display_text":  "Goldey Beacom College - J-1078"
@@ -33,6 +53,11 @@
         "project_number":  "J-1026",
         "project_name":  "Haddonfield - Hopkins Parcel Athletic Improvements",
         "display_text":  "Haddonfield - Hopkins Parcel Athletic Improvements - J-1026"
+    },
+    {
+        "project_number":  "J-1043",
+        "project_name":  "Hammonton HS Field Scoreboard",
+        "display_text":  "Hammonton HS Field Scoreboard - J-1043"
     },
     {
         "project_number":  "J-1077",
@@ -85,6 +110,11 @@
         "display_text":  "Musco DSG Cherry Hill Mall - J-1038"
     },
     {
+        "project_number":  "J-1074",
+        "project_name":  "Ocean Road Park Musco Quick Fit",
+        "display_text":  "Ocean Road Park Musco Quick Fit - J-1074"
+    },
+    {
         "project_number":  "J-1054",
         "project_name":  "Otter Street Fields Bristol PA",
         "display_text":  "Otter Street Fields Bristol PA - J-1054"
@@ -120,8 +150,28 @@
         "display_text":  "Southampton Middle School - J-1011"
     },
     {
+        "project_number":  "J-1001",
+        "project_name":  "Vermes Field (Delran) - Soccer Field Improvements",
+        "display_text":  "Vermes Field (Delran) - Soccer Field Improvements - J-1001"
+    },
+    {
         "project_number":  "J-1002",
         "project_name":  "Wall Township High School",
         "display_text":  "Wall Township High School - J-1002"
+    },
+    {
+        "project_number":  "J-1048",
+        "project_name":  "Washington Township High School",
+        "display_text":  "Washington Township High School - J-1048"
+    },
+    {
+        "project_number":  "J-1041",
+        "project_name":  "Willingboro - John F Kennedy Rec Center - Football Field Irrigation Electrical",
+        "display_text":  "Willingboro - John F Kennedy Rec Center - Football Field Irrigation Electrical - J-1041"
+    },
+    {
+        "project_number":  "J-1040",
+        "project_name":  "winslow solar ninsa",
+        "display_text":  "winslow solar ninsa - J-1040"
     }
 ]
