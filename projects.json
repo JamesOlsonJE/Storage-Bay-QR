@@ -125,6 +125,11 @@
         "display_text":  "Otter Street Fields Bristol PA - J-1054"
     },
     {
+        "project_number":  "J-1055",
+        "project_name":  "Pompton Lakes BOE",
+        "display_text":  "Pompton Lakes BOE - J-1055"
+    },
+    {
         "project_number":  "J-1020",
         "project_name":  "Runnemede - Ball Field Lighting Improvements",
         "display_text":  "Runnemede - Ball Field Lighting Improvements - J-1020"
@@ -158,6 +163,11 @@
         "project_number":  "J-1001",
         "project_name":  "Vermes Field (Delran) - Soccer Field Improvements",
         "display_text":  "Vermes Field (Delran) - Soccer Field Improvements - J-1001"
+    },
+    {
+        "project_number":  "J-1051",
+        "project_name":  "Vineland - Gittone Stadium",
+        "display_text":  "Vineland - Gittone Stadium - J-1051"
     },
     {
         "project_number":  "J-1002",
